@@ -1,6 +1,6 @@
 import streamlit as st
 
 st.title("csuszka")
-level = st.slider(".slider: Select the level", 1, 5)
+szint = st.slider("valasszal szamot csoves", 0, 16)
 
-st.text('Selected: {}'.format(level))
+st.text('valasztott: {}'.format(szint))
